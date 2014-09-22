@@ -69,9 +69,10 @@ cached and returned on any subsequent calls:
 
 .. doctest::
 
-  >> mock_attribute_1 = my_mock.attribute
-  >> mock_attribute_2 = my_mock.attribute
-  >> mock_attribute_1 is mock_attribute_2
+  >>> mock_attribute_1 = my_mock.attribute
+  >>> mock_attribute_2 = my_mock.attribute
+  >>> mock_attribute_1 is mock_attribute_2
+  True
 
 This is a useful property because it makes possible to get the mock objects
 that are going to be used in the unit under test in advance to configure them
