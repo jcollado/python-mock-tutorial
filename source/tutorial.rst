@@ -7,8 +7,8 @@ using mock_. None of the examples below will be difficult to follow, but a
 basic knowledge of python and unittest_ library is recommended.
 
 
-Mock objects
-============
+Mock
+====
 
 
 What is a mock object?
