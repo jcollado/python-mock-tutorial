@@ -1,0 +1,4 @@
+# sphinx output
+build/
+# vim swap files
+*.swp
