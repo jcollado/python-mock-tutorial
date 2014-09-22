@@ -70,8 +70,8 @@ that are going to be used in the unit under test in advance to configure them
 properly depending on the need of each test case.
 
 
-Methods
--------
+How are methods mocked?
+-----------------------
 
 
 Setting return values
