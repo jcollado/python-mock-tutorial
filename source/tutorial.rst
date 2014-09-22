@@ -31,7 +31,7 @@ It supports attribute access and method calls:
   <Mock name='mock.method()' id='...'>
 
 Index access is no supported by default because magic methods, those whose
-names are surrounded by double undercores, require a special configuration
+names are surrounded by double underscores, require a special configuration
 because of they way they are looked up internally in python. However, there is
 a special subclass of ``Mock`` called ``MagicMock`` that provides a default
 implementation for most magic methods including `__getitem__`:
