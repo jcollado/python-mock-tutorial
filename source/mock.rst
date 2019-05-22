@@ -21,7 +21,7 @@ It supports attribute access and method calls:
   >>> my_mock.method()
   <Mock name='mock.method()' id='...'>
 
-Index access is no supported by default because magic methods, those whose
+Index access is not supported by default because magic methods, those whose
 names are surrounded by double underscores, require a special configuration
 because of the way they are looked up internally in python. However, there is
 a special subclass of ``Mock`` called ``MagicMock`` that provides a default
